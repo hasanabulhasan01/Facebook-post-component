@@ -1,0 +1,53 @@
+
+.mainDiv{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(202, 202, 223);
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding: 15px;
+    /* background-color: rgb(248, 241, 241); */
+}
+
+.profilePic{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 3px solid rgb(110, 110, 233);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.date{
+    margin-top: -15px;
+    margin-left: 5px;
+    font-size: 10px;
+    color: rgb(108, 98, 98);
+}
+
+.description{
+    padding-left: 10px;
+}
+
+.key{
+    font-weight: bolder;
+}
+.value{
+    font-weight: 400;
+}

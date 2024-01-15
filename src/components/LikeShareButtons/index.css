@@ -1,0 +1,42 @@
+.mainContainer{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.buttonDiv{
+    padding: 5px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid rgb(208, 199, 199);
+    border-bottom: 2px solid rgb(208, 199, 199);
+}
+
+button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+.likeBtnDiv{
+.emoji-div{
+    height: 30px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 640px;
+    left: 560px;
+    display: none;
+}
+
+&:hover{
+.emoji-div{
+    display: block;
+    
+}
+}
+}
